@@ -1,0 +1,17 @@
+# Trooly (Airbnb)
+
+> Trooly, Inc. was a machine-learning trust and safety startup ("Trust starts with Trooly") that scored the trustworthiness of individuals from publicly available data and digital footprints, for trust & safety management, risk assessment, and CRM use cases. Airbnb acquired Trooly and, as of June 19, 2017, the company ceased operations and shut down its external APIs. Trooly, Inc. remains an Airbnb subsidiary; its technology was absorbed into Airbnb's trust & safety systems. trooly.com is now a parked domain. There is no living API surface.
+
+## History
+
+- [Archived trooly.com shutdown notice (Wayback Machine)](https://web.archive.org/web/20170301/https://www.trooly.com/): "As of June 19, 2017, we have ceased operations and shut down our external APIs."
+- [Airbnb — Wikipedia](https://en.wikipedia.org/wiki/Airbnb): lists Trooly, Inc. as a subsidiary.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/apis.yml): API Evangelist network profile for Trooly (Airbnb).
+- [Lifecycle artifact](https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/lifecycle/trooly-airbnb-lifecycle.yml): retirement record for the Trooly external APIs.
+
+## Optional
+
+- Successor context: Airbnb's trust & safety features (risk scoring of accounts) descend in part from Trooly's technology; Airbnb itself does not expose Trooly's scoring as a public API.

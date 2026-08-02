@@ -1,8 +1,27 @@
 aid: trooly-airbnb
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trooly-airbnb.png
 name: Trooly (Airbnb)
-description: 'Trooly (Airbnb) is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Trooly, Inc. was a machine-learning trust and safety startup that scored the
+  trustworthiness of individuals using publicly available data and digital
+  footprints, offering its Instant Trust screening service to businesses for
+  trust and safety management, risk assessment, and customer relationship use
+  cases. Backed by Bain Capital Ventures, Trooly was acquired by Airbnb and
+  ceased operations on June 19, 2017, shutting down its external APIs; its
+  technology was absorbed into Airbnb's trust and safety systems and Trooly,
+  Inc. remains an Airbnb subsidiary. trooly.com is now a parked domain and no
+  living API surface exists.
 url: https://raw.githubusercontent.com/api-evangelist/trooly-airbnb/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,46 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-airbnb-2017-06-19-apis-shut-down
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Ai Apps
+- Trust and Safety
+- Machine Learning
+- Background Checks
+- Risk Assessment
+- Acquired
+- Defunct
 apis: []
+common:
+- type: DomainSecurity
+  url: security/trooly-airbnb-domain-security.yml
+- name: Website (parked domain)
+  type: Website
+  url: https://trooly.com
+- name: Archived Shutdown Notice (Wayback Machine)
+  type: Archive
+  url: https://web.archive.org/web/20170301/https://www.trooly.com/
+- name: Lifecycle (API surface retired 2017-06-19)
+  type: Lifecycle
+  url: lifecycle/trooly-airbnb-lifecycle.yml
+- name: Well-Known Probe Index (parked domain, no genuine documents)
+  type: WellKnownProbe
+  url: well-known/trooly-airbnb-well-known.yml
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/trooly-airbnb-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

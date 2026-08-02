@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+source: https://web.archive.org/web/20170301/https://www.trooly.com/
+status: retired
+retirement:
+  date: '2017-06-19'
+  reason: acquisition
+  acquirer: Airbnb
+  notice: >-
+    "TROOLY HAS BEEN ACQUIRED BY AIRBNB. As of June 19, 2017, we have ceased
+    operations and shut down our external APIs." — archived trooly.com shutdown
+    notice (Wayback Machine). Trooly, Inc. is listed as a subsidiary of Airbnb
+    on Wikipedia (Airbnb article, retrieved 2026-07-21).
+  evidence:
+    - source: https://web.archive.org/web/20170301/https://www.trooly.com/
+      kind: archived-shutdown-notice
+    - source: https://en.wikipedia.org/wiki/Airbnb
+      kind: subsidiary-listing
+versioning: null
+deprecation: null
+sla: null
+status_page: null
+deprecated_operations: []
+note: >-
+  The entire external API surface (the Trooly "Instant Trust" trust-scoring
+  service) was sunset on 2017-06-19 when the company was absorbed into Airbnb's
+  trust & safety organization. trooly.com is now a parked domain. No living
+  API, documentation, status page, or deprecation policy exists.

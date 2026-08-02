@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: searched
+host: https://trooly.com
+note: >-
+  trooly.com is a parked domain (GoDaddy parking lander) as of 2026-07-21. Trooly, Inc.
+  was acquired by Airbnb and ceased operations on June 19, 2017, shutting down its
+  external APIs. The parked host answers every path with HTTP 200 and the same
+  redirect-to-/lander HTML (wildcard response), so the 200 statuses below are NOT real
+  well-known documents — no raw files were saved. Verified by fetching an unknown
+  control path, which returned the identical 200 lander page.
+wildcard_200: true
+documents:
+  - path: /.well-known/security.txt
+    status: 200
+    genuine: false
+  - path: /.well-known/openid-configuration
+    status: 200
+    genuine: false
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    genuine: false
+  - path: /.well-known/api-catalog
+    status: 200
+    genuine: false
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    genuine: false
+  - path: /llms.txt
+    status: 200
+    genuine: false

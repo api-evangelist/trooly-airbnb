@@ -49,7 +49,7 @@ tags:
 - Company
 - Ai Apps
 - Trust and Safety
-- Machine-Learning
+- Machine Learning
 - Background Checks
 - Risk Assessment
 - Acquired
@@ -63,6 +63,7 @@ tags_raw:
 - Risk Assessment
 - Acquired
 - Defunct
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
